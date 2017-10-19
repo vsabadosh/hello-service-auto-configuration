@@ -15,7 +15,7 @@ public class ConsoleHelloService implements HelloService {
 	}
 
 	public ConsoleHelloService() {
-		this(null, null);
+		this(null, null);;
 	}
 
 	@Override
