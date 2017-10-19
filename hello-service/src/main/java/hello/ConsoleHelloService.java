@@ -21,7 +21,7 @@ public class ConsoleHelloService implements HelloService {
 	@Override
 	public void sayHello(String name) {
 		String msg = String.format("%s %s%s", this.prefix, name, this.suffix);
-		System.out.println(msg);
+		System.out.println(msg);;
 	}
 
 }
